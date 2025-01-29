@@ -1,0 +1,27 @@
+html,
+body {
+  height: 105%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevents unwanted scrollbars */
+}
+
+body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000033;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+.wave-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
